@@ -111,8 +111,7 @@ vector<int> vec;
 | Resize | ✅ | ❌ |
 
 ---
-<br>
-<br>  
+<br> 
 
 # Algorithm (`<algorithm>`)
 
@@ -184,7 +183,7 @@ The **`<algorithm>`** library provides powerful generic algorithms for searching
 | Count | O(n) |
 
 ---
-
+<br> 
 # 📚 Stack (`<stack>`)
 
 A **`stack`** is a **LIFO (Last In First Out)** container.
@@ -250,7 +249,7 @@ stack<int> st;
 | Top | O(1) |
 
 ---
-
+<br> 
 # 🚶 Queue (`<queue>`)
 
 A **queue** is a **FIFO (First In First Out)** container.
@@ -307,7 +306,7 @@ queue<DataType> q;
 | Front | O(1) |
 
 ---
-
+<br> 
 # 🔄 Deque (`<deque>`)
 
 A **deque** (Double Ended Queue) allows insertion and deletion from both ends.
@@ -369,7 +368,7 @@ deque<DataType> dq;
 | Insert Middle | O(n) |
 
 ---
-
+<br> 
 # 📜 List (`<list>`)
 
 A **list** is a doubly linked list.
@@ -434,7 +433,7 @@ list<DataType> lst;
 | Random Access | ❌ |
 
 ---
-
+<br> 
 # 🗺️ Map (`<map>`)
 
 A **`map`** stores **unique key-value pairs** in **sorted order** using a **Red-Black Tree**.
@@ -519,7 +518,7 @@ map<int,string> mp;
 | Range Queries | ✅ | ❌ |
 
 ---
-
+<br> 
 # #️⃣ Unordered Map (`<unordered_map>`)
 
 An **`unordered_map`** stores **key-value pairs** using a **hash table**. It provides **average O(1)** time complexity for insertion, deletion, and lookup operations.
