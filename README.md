@@ -184,7 +184,9 @@ The **`<algorithm>`** library provides powerful generic algorithms for searching
 
 ---
 <br> 
-# 📚 Stack (`<stack>`)
+    
+
+#  Stack (`<stack>`)
 
 A **`stack`** is a **LIFO (Last In First Out)** container.
 
@@ -250,6 +252,7 @@ stack<int> st;
 
 ---
 <br> 
+    
 # 🚶 Queue (`<queue>`)
 
 A **queue** is a **FIFO (First In First Out)** container.
@@ -307,6 +310,7 @@ queue<DataType> q;
 
 ---
 <br> 
+    
 # 🔄 Deque (`<deque>`)
 
 A **deque** (Double Ended Queue) allows insertion and deletion from both ends.
@@ -369,6 +373,7 @@ deque<DataType> dq;
 
 ---
 <br> 
+    
 # 📜 List (`<list>`)
 
 A **list** is a doubly linked list.
@@ -434,6 +439,7 @@ list<DataType> lst;
 
 ---
 <br> 
+    
 # 🗺️ Map (`<map>`)
 
 A **`map`** stores **unique key-value pairs** in **sorted order** using a **Red-Black Tree**.
@@ -519,6 +525,7 @@ map<int,string> mp;
 
 ---
 <br> 
+    
 # #️⃣ Unordered Map (`<unordered_map>`)
 
 An **`unordered_map`** stores **key-value pairs** using a **hash table**. It provides **average O(1)** time complexity for insertion, deletion, and lookup operations.
