@@ -9,7 +9,14 @@ int main() {
 
     sort(vec.begin(), vec.end());  // Sorts in ascending order
 
-    cout << "Sorted vector: ";
+    cout << "Sorted vector in ascending order : ";
+    for (int num : vec) {
+        cout << num << " ";
+    }
+    cout << endl;
+    sort(vec.begin(), vec.end(), greater<int>());  // Sorts in descending order 
+
+    cout << "Sorted vector in descending order : ";
     for (int num : vec) {
         cout << num << " ";
     }
